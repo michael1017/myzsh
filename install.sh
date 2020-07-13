@@ -5,7 +5,7 @@ set -euxo
 mv $HOME/.zshrc $HOME/zshrc_backup.$(date "+%Y.%m.%d-%H:%M:%S")
 
 # install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # install oh-my-zsh plugin
 cd $HOME/.oh-my-zsh/custom/plugins/
