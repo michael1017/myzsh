@@ -1,5 +1,5 @@
 #!/bin/bash 
-set -euxo
+set -e
 
 # backup original tmux configuration
 mv $HOME/.zshrc $HOME/zshrc_backup.$(date "+%Y.%m.%d-%H:%M:%S")
